@@ -1,0 +1,18 @@
+{
+  "irc_server" : "irc.example.com",
+  "irc_port" : 6667,
+  "irc_nick" : "YourNick",
+  "irc_channel" : "#listen-channel",
+  "accepted_nick" : "listen_nick",
+  "testing" : false,
+  "servers" : [
+    {
+      "name" : "My Slack Server",
+      "username" : "Testbot",
+      "channel" : "#tweets",
+      "batch_time" : 3600,
+      "batch_amount" : 40,
+      "url" : "https://hooks.slack.com/services/MYAUTHURL/FOR/SLACK"
+    }
+  ]
+}
